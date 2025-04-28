@@ -18,7 +18,7 @@ router.get('/PrawnsBiryani',(req,res)=> {
     res.send("Mashallah,Your Prawns Biryani is Awesome")
 })
 
-router.get('MandiBiryani',(req,res)=> {
+router.get('/MandiBiryani',(req,res)=> {
     res.send("Mashallah,Your Mandi Biryani is Awesome")
 })
 
