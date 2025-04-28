@@ -2,23 +2,23 @@ const express=require('express')
 
 const router = express.Router()
 
-router.get('/Mutton Biryani',(req,res)=> {
+router.get('/MuttonBiryani',(req,res)=> {
     res.send("Mashallah,Your Biryani is Awesome")
 })
 
-router.get('/Chicken Biryani',(req,res)=> {
+router.get('/ChickenBiryani',(req,res)=> {
     res.send("Mashallah,Your Biryani is Awesome")
 })
 
-router.get('/Fish Biryani',(req,res)=> {
+router.get('/FishBiryani',(req,res)=> {
     res.send("Mashallah,Your Biryani is Awesome")
 })
 
-router.get('/Prawns Biryani',(req,res)=> {
+router.get('/PrawnsBiryani',(req,res)=> {
     res.send("Mashallah,Your Biryani is Awesome")
 })
 
-router.get('Mandi Biryani',(req,res)=> {
+router.get('MandiBiryani',(req,res)=> {
     res.send("Mashallah,Your Biryani is Awesome")
 })
 
