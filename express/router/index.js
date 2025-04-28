@@ -93,6 +93,9 @@ router.get('/ButterChicken',(req,res)=> {
     res.send("Mashallah,Your Butter Chicken is Crazy")
 })
 
+router.get('/Soda',(req,res)=> {
+    res.send("Mashallah,Soda is very sparkling")
+})
 
 
 module.exports=router;
