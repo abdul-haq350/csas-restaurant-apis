@@ -42,5 +42,34 @@ router.get('/dumkichai',(req,res)=> {
 })
 router.get('/zafranichai',(req,res)=> {
     res.send("Alhamdulillah! Wah Zafrni Chai,")
+
+router.get('/shahi-tukda',(req,res)=> {
+    res.send("Mashallah,you are as sweet as  shahi-tukda")
 })
+
+router.get('/Fruit-ka-meetha',(req,res)=> {
+    res.send("Mashallah,you are as sweet as  Fruit-ka-meetha")
+})
+
+router.get('/gajjar-ka-halwa',(req,res)=> {
+    res.send("Mashallah,you are as sweet as  gajjar-ka-halwa")
+})
+
+router.get('/beetroot-ka-halwa',(req,res)=> {
+    res.send("Mashallah,you are as sweet as  beetroot-ka-halwa")
+})
+
+router.get('/sheerkhorma',(req,res)=> {
+    res.send("Mashallah,you are as sweet as  sheerkhorma")
+})
+
+router.get('/qurbani-ka-meetha',(req,res)=> {
+    res.send("Mashallah,you are as sweet as  qurbani-ka-meetha")
+})
+
+router.get('/chai',(req,res)=> {
+    res.send("Alhamdulillah! Wah Abdul Haq Wah,")
+})
+
+
 module.exports=router;
