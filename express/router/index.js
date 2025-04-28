@@ -34,7 +34,7 @@ router.get('/Hyderabadi chai',(req,res)=> {
 router.get('/karack chai',(req,res)=> {
     res.send("Alhamdulillah! Wah Abdul Haq Wah,")
 })
-router.get('/masale chai',(req,res)=> {
+router.get('/masale chai',(req,res)=> { 
     res.send("Alhamdulillah! Wah Abdul Haq Wah,")
 })
 router.get('/dum ki chai',(req,res)=> {
