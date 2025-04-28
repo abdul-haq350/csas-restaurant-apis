@@ -42,6 +42,7 @@ router.get('/dumkichai',(req,res)=> {
 })
 router.get('/zafranichai',(req,res)=> {
     res.send("Alhamdulillah! Wah Zafrni Chai,")
+})
 
 router.get('/shahi-tukda',(req,res)=> {
     res.send("Mashallah,you are as sweet as  shahi-tukda")
