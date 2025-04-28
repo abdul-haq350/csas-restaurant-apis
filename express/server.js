@@ -3,5 +3,7 @@ const app = express()
 
 const routes = require("./router/index")
 
-app.listen(3009, ()=> {console.log("We are listening at port 3009!")})
+
+app.use('/',routes);
+app.listen(3000,()=>{console.log('server listening on port no: 3000}')})
 
